@@ -2,30 +2,133 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./grid.css">
-    <!-- <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css"> -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./grid.css">
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+  <link rel="stylesheet" href="../module/animate.min.css">
 </head>
 
 <body>
-    <div id="aaa">
-        <!-- <div v-for="i,index in bbb" :class="['ccc',point==index?'ccc1':'']" @click="ccc(index)"></div> -->
-        <div class="huj">
+  <div id="aaa">
+    <!-- grid动态添加元素 -->
+    <!-- <div v-for="i in bbb" style="background-color: aquamarine;"></div>
+        <div style="background-color: rebeccapurple;grid-column-start: 2;grid-row-start: n+1;"></div>
+        <div style="background-color: red;grid-column-start: 3;grid-row-start: n+2;"></div> -->
+    <!-- 查找替换功能 -->
+    <!-- <input type="text" id="qwe" v-model="point">
+        <button @click="eqweqw">dasda</button> -->
+    <!-- <div v-for="i,index in bbb" :class="['ccc',point==index?'ccc1':'']" @click="ccc(index)"></div> -->
+    <!-- <div class="huj">
             <div class="abc">
                 <div class="ddd" :style="`width:${point * 10}%`"></div>
             </div>    
         </div>
-        <input type="range" max="10" min="0" step="1" style="width: 150px;height: 20px;top: 200px;position: relative;" v-model="point">
-    </div>
-    <script src="./module/jquery-3.6.0.js"></script>
-    <!-- <script src="./module/vue.js"></script> -->
-    <script src="https://unpkg.com/vue@next"></script>
-    <!-- <script src="https://unpkg.com/element-ui/lib/index.js"></script> -->
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="./grid.js"></script>
+        <input type="range" max="10" min="0" step="1" style="width: 150px;height: 20px;top: 200px;position: relative;" v-model="point"> -->
+    <!-- <div style="width: 0;height: 0;overflow: hidden;">123
+            <div>48665
+                <div>78945614</div>
+            </div>
+        </div> -->
+    <!-- <div class="wrapper">
+            <div class="box">
+              <input type="checkbox" checked="checked" id="usename" /><span>√</span>
+            </div>
+            <lable for="usename">我是选中状态</lable>
+          </div>
+          
+          <div class="wrapper">
+            <div class="box">
+              <input type="checkbox"  id="usepwd" /><span>√</span>
+            </div>
+            <label for="usepwd">我是未选中状态</label>
+          </div> -->
+    <!-- <div style="position: fixed; right: 20px; top: 0;">
+            <input id="key" type="text" style="width: 100px;" v-model="input">
+            <input id="search" type="button" value="查找" @click="search">
+            <input type="button" value="下一个" @click="next">
+            <input type="button" value="上一个" @click="previous">
+        </div>
+        <div style="height: 100px;">
+        </div>
+        <div style="height: 100px;">
+            1、45648897454。
+        </div>
+        <div style="height: 100px;">
+            2、据 Ben Geskin 推文显示，三星 S10 果真具有早先已传闻的“打孔屏”设计。对此，营长并不觉得是什么稀奇的事，因为近几年手机市场的厂商们，几乎都在盘算着如何“以貌取胜”，同时，配备让智能手机更智能的
+            AI 技术也是如今手机的一大卖点。
+        </div>
+        <div style="height: 100px;">
+            2015年，三星风投投资了区块链消费设备ADEPT；。
+        </div>
+        <div style="height: 100px;">
+            2016年，三星集团旗下最大子公司三星数据系统（Samsung SDS）宣布，将投资一家为公司提供基于区块链开发平台的当地公司，理由是区块链技术是足以改变世界的金融创新技术；
+        </div>
+        <div style="height: 100px;">
+            2017年，三星建立以云计算为主的企业级区块链平台 Nexledger；
+        </div>
+        <div style="height: 100px;">
+            2018年1月，三星数据系统宣布投资两家初创公司，其中一家为韩国区块链公司 Blocko，另一家为英国网络安全公司 Darktrace；
+        </div>
+        <div style="height: 100px;">
+            2018年4月，三星开始为 Halong Mining 的 DragonMint T1 矿机生产 10nm 芯片。
+        </div>
+        <div style="height: 100px;">
+            2018年9月，三星 SDS 与韩国海关、韩国银行等合作开发区块链认证平台，
+        </div>
+        <div style="height: 100px;">
+            2018年10月，三星与荷兰银行 ABN AMRO 展开区块链贸易试点项目。
+        </div>
+        <div style="height: 100px;">
+            2019年1月23日，据一位名为 Ben Geskin 的推特网友爆料，三星 Galaxy S10 手机将内置区块链数字钱包服务，并首次报道于三星新闻网站
+            SamMobile。但截止到撰稿时间，三星对此并没有做出任何回应。但种种迹象表明，这次真有点实锤的意思！
+        </div>
+        <div style="height: 100px;">
+            6666666666666
+        </div> -->
+    <!-- <h2><a href="#brand">Brand</a></h2>
+        <div class="menuSection" id="brand">
+            content for Brand
+        </div>
+        <h2><a href="#jake">Brand</a></h2>
+        <div class="menuSection" id="jake">
+            content for jake
+        </div>
+        <h2><a href="#aron">Brand</a></h2>
+        <div class="menuSection" id="aron">
+            content for aron
+        </div> -->
+    <!-- <button @click="paraObj={a:1,b:2}">建立对象并创建值</button>
+            <button @click="paraObj={a:3,b:6}">建立对象并创建值</button>
+            <button @click="paraObj={a:8,b:2}">建立对象并创建值</button>
+            <span>{{paraObj.a}}</span>
+            <span>{{paraObj.b}}</span> -->
+    <!-- 3D动画效果实验 -->
+    <!-- <ul class="ulclass">
+            <li>
+                <div class="threedBox">
+                    <div class="front"></div>
+                    <div class="bottom"></div>
+                </div>
+            </li>
+            <li>
+                <div class="threedBox">
+                    <div class="front"></div>
+                    <div class="bottom"></div>
+                </div>
+            </li>
+        </ul> -->
+    <!-- animate.css实验 -->
+    <!-- <div class="animate__animated animate__flash" style="width: 200px;height: 200px;background-color: blueviolet;color: brown;">123456</div> -->
+  </div>
+  <script src="../module/jquery-3.6.0.js"></script>
+  <!-- <script src="../module/vue.js"></script> -->
+  <script src="https://unpkg.com/vue@next"></script>
+  <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./grid.js"></script>
 </body>
 
 </html>
